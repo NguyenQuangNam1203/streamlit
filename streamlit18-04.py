@@ -7,7 +7,7 @@ import plotly.express as px
 st.title('Interactive Dashboard')
 st.subheader('Interact with this dashboard using the widgets on the sidebar')
 
-movies_data = pd.read_csv("D:\Python\movies.csv")
+movies_data = pd.read_csv("D:/Python/movies.csv")
 movies_data.info()
 movies_data.duplicated()
 movies_data.count()
